@@ -35,9 +35,16 @@ const prompts = [
    
    
     {
-        type: 'input',
+        type: 'list',
         name: 'license',
-        message: 'What license is this project going to use?',
+        message: 'Please select which license you would like to use',
+        choices: [
+            "APACHE 2.0",
+            "BSD3",
+            "GVL-GPL 3.0",
+            "MIT",
+            "None"
+        ]
         
       
     },
@@ -66,7 +73,7 @@ inquirer.prompt(prompts).then((answers) => {
     answersObj = JSON.stringify(answers, null, '   ');
     console.log(answersObj);
 
-  
+ 
      
 
     fs.writeFile('README.md', `
@@ -83,8 +90,10 @@ github pages: ${answers.ghPages}
 
 github URL: ${answers.ghUrl}
 ## Table of Contents
-[about](#about)
+[About](#about)
+
 [Installation](#Installation)
+
 [license](#license)
 
 ## About
@@ -96,7 +105,7 @@ ${answers.why}
 ${answers.installInst}
 
 ## License
-## License
+${answers.license}
 
 
     `,
@@ -104,3 +113,5 @@ ${answers.installInst}
          if (err) throw err;
          console.log('the file has been saved');
      })});
+
+ 
