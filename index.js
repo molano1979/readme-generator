@@ -2,6 +2,7 @@ const inquirer = require('inquirer');
 const fs = require('fs');
 
 
+
 const prompts = [
 
     {
@@ -41,7 +42,6 @@ const prompts = [
         choices: [
             "APACHE 2.0",
             "BSD3",
-            "GVL-GPL 3.0",
             "MIT",
             "None"
         ]
@@ -106,8 +106,13 @@ ${answers.installInst}
 
 ## License
 ${answers.license}
+![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
+![License](https://img.shields.io/badge/License-BSD_3--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)
 
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+   
     `,
      (err) => {
          if (err) throw err;
