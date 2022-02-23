@@ -17,8 +17,7 @@ github URL: https://github.com/molano1979/readme-generator
 [License](#license)
 
 ## Generate Readme Demo
-Screencastify Tutorial video demonstration
-https://drive.google.com/file/d/1-m0UBSHiAE5frX-VWwDgwHKX0WMlT76F/view
+[Tutorial video demonstration](https://drive.google.com/file/d/1-m0UBSHiAE5frX-VWwDgwHKX0WMlT76F/view)
 
 ## About
 ### Why did I make this project?
