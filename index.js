@@ -91,6 +91,9 @@ github URL: ${answers.ghUrl}
 
 [License](#license)
 
+## Generate Readme Demo
+![link to video]
+
 ## About
 ### Why did I make this project?
 ${answers.why}
@@ -115,4 +118,3 @@ ${answers.license}
          console.log('the file has been saved');
      })});
 
- 
