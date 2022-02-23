@@ -1,39 +1,36 @@
 
-# README Generator
-![profile picture](/pic.jpg)(molano1979)
+# Readme Generator
+![profile picture](molano79)
 
-what is your name: Diana Cady
-
-created by: molano1979
+created by: molano79
 
 reach me: dmmolano@yahoo.com
 
-github pages: https://github.com/molano1979/readme-generator
+github pages: molano
 
-github URL: https://github.com/molano1979/readme-generator
+github URL: molano
 ## Table of Contents
 [About](#about)
 
 [Installation](#Installation)
 
-[license](#license)
+[License](#license)
 
 ## About
 ### Why did I make this project?
-Generates a README.md file based upon user prompts using inquirer npm in node.js.
+to generate a readme page using node js
 
 
 ## Installation
-This app runs off of node.js and requires npm to install the inquirer package, along with the fs and util modules in node.js.
+node js
 
 ## License
-MIT
+APACHE 2.0
 
-![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)(https://opensource.org/licenses/Apache-2.0)
+![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg (https://opensource.org/licenses/Apache-2.0))
 
-![License](https://img.shields.io/badge/License-BSD_3--Clause-blue.svg)(https://opensource.org/licenses/BSD-3-Clause)
 
-![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)(https://opensource.org/licenses/MIT)
+![License](https://img.shields.io/badge/License-BSD_3--Clause-blue.svg (https://opensource.org/licenses/BSD-3-Clause))
 
-   
-    
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg (https://opensource.org/licenses/MIT))
+

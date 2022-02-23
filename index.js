@@ -11,11 +11,7 @@ const prompts = [
         message: 'What is the title of your project?',
     },
     
-    {
-        type: 'input',
-        name: 'name',
-        message: 'What is your name?',
-    },
+  
     {
         type: 'input',
         name: 'why',
@@ -80,8 +76,6 @@ inquirer.prompt(prompts).then((answers) => {
 # ${answers.projTitle}
 ![profile picture](${answers.ghUserName})
 
-what is your name: ${answers.name}
-
 created by: ${answers.ghUserName}
 
 reach me: ${answers.emailAdd}
@@ -94,7 +88,7 @@ github URL: ${answers.ghUrl}
 
 [Installation](#Installation)
 
-[license](#license)
+[License](#license)
 
 ## About
 ### Why did I make this project?
