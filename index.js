@@ -3,6 +3,7 @@ const fs = require('fs');
 
 
 
+
 const prompts = [
 
     {
@@ -46,8 +47,8 @@ const prompts = [
     },
     {
         type: 'input',
-        name: 'ghUserName',
-        message: 'What is your github user name?',
+        name: 'userName',
+        message: 'What is your is your name?',
     },
     {
         type: 'input',
@@ -76,7 +77,7 @@ inquirer.prompt(prompts).then((answers) => {
 # ${answers.projTitle}
 ![profile picture](${answers.ghUserName})
 
-created by: ${answers.ghUserName}
+created by: ${answers.userName}
 
 reach me: ${answers.emailAdd}
 
@@ -86,7 +87,7 @@ github URL: ${answers.ghUrl}
 ## Table of Contents
 [About](#about)
 
-[Installation](#Installation)
+[Installation](#installation)
 
 [License](#license)
 
@@ -100,11 +101,12 @@ ${answers.installInst}
 
 ## License
 ${answers.license}
-![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
-![License](https://img.shields.io/badge/License-BSD_3--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)
+![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)
 
-![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+![License](https://img.shields.io/badge/License-BSD_3--Clause-blue.svg)
+
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 
    
     `,
